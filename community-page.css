@@ -1,0 +1,31 @@
+/* Community page details. */
+.community-welcome { display: grid; grid-template-columns: 66px minmax(0, 1fr); gap: 16px; align-items: start; margin: 20px 0 24px; padding: 18px; border: 1px solid #c9d6dd; background: linear-gradient(110deg, #f3f6f7, #e1ebef); }
+.welcome-mark { width: 58px; height: 58px; display: grid; place-items: center; color: #fff; background: linear-gradient(135deg, #28a0ce, #075789); border-radius: 50%; font-size: 15px; font-weight: bold; box-shadow: inset 0 1px rgba(255,255,255,.4); }
+.community-welcome h2 { margin: 0 0 6px; color: #333; font-size: 18px; font-weight: 400; }
+.community-welcome p { max-width: 650px; margin: 0 0 13px; color: #5d6468; font-size: 12px; }
+.community-grid { display: grid; grid-template-columns: minmax(0, 1fr) 245px; gap: 22px; padding: 0 0 28px; }
+.community-main { min-width: 0; }
+.participation-list { display: grid; }
+.participation-card { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 13px; padding: 16px 0; border-bottom: 1px solid #dedede; }
+.participation-icon { width: 42px; height: 42px; display: grid; place-items: center; color: #fff; border: 1px solid rgba(0,0,0,.1); box-shadow: inset 0 1px rgba(255,255,255,.35); font-size: 20px; }
+.community-blue { background: linear-gradient(135deg, #28a0ce, #075789); }
+.community-green { background: linear-gradient(135deg, #91b64a, #5f8426); }
+.community-orange { background: linear-gradient(135deg, #e99a50, #c45c1b); }
+.participation-card .card-kicker { margin: 0 0 3px; font-size: 9px; }
+.participation-card h3 { margin: 0 0 5px; font-size: 15px; font-weight: 400; }
+.participation-card p:not(.card-kicker) { margin: 0 0 7px; color: #666; font-size: 12px; line-height: 1.5; }
+.community-note { padding-bottom: 8px; }
+.community-note ul { padding-left: 27px; color: #666; font-size: 11px; line-height: 1.55; }
+.community-note li { padding: 4px 0; }
+@media (max-width: 700px) {
+  .community-grid { grid-template-columns: 1fr; gap: 12px; }
+  .community-grid .news-sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+}
+@media (max-width: 480px) {
+  .community-welcome { grid-template-columns: 42px minmax(0, 1fr); gap: 11px; padding: 13px; }
+  .welcome-mark { width: 40px; height: 40px; font-size: 11px; }
+  .community-welcome h2 { font-size: 16px; }
+  .participation-card { grid-template-columns: 40px minmax(0, 1fr); gap: 10px; }
+  .participation-icon { width: 36px; height: 36px; font-size: 17px; }
+  .community-grid .news-sidebar { grid-template-columns: 1fr; gap: 0; }
+}
