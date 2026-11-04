@@ -1,0 +1,34 @@
+[
+  {
+    "category": "PPC CENTRAL NEWS",
+    "title": "A fresh home for the PPC community",
+    "excerpt": "Welcome to PPC Central: a place to share Pocket PC memories, helpful resources, and the devices and software that made these handhelds special.",
+    "url": "#community",
+    "icon": "▤",
+    "color": "blue"
+  },
+  {
+    "category": "COMMUNITY",
+    "title": "What was your first Pocket PC?",
+    "excerpt": "From early monochrome handhelds to color touchscreen devices, every owner has a favorite. Share the model that started it all for you.",
+    "url": "#community",
+    "icon": "▣",
+    "color": "green"
+  },
+  {
+    "category": "GUIDES & TIPS",
+    "title": "Getting a classic handheld ready to use",
+    "excerpt": "Start with the basics: check the battery, find a compatible sync cable, and confirm which software works with your version of Windows Mobile.",
+    "url": "guides.html#getting-started",
+    "icon": "⌕",
+    "color": "orange"
+  },
+  {
+    "category": "FROM THE COMMUNITY",
+    "title": "Keeping useful Pocket PC software discoverable",
+    "excerpt": "Finding old utilities and documentation can be part of the fun. Help others by sharing reliable sources, compatibility notes, and setup tips.",
+    "url": "index.html#downloads",
+    "icon": "▧",
+    "color": "blue"
+  }
+]

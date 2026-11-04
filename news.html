@@ -21,7 +21,7 @@
       <nav class="main-nav wrap" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a class="nav-home" href="news.html" aria-current="page">News</a>
-        <a href="index.html#guides">Guides</a>
+        <a href="guides.html">Guides</a>
         <a href="index.html#downloads">Downloads</a>
         <a href="index.html#community">Community</a>
         <form class="search" role="search" action="#">
@@ -40,69 +40,22 @@
       <h1 id="page-title">News &amp; stories</h1>
       <p>Updates, community stories, and useful reads for people who love Pocket PC.</p>
     </section>
-
     <div class="news-layout">
-      <section class="news-feed" aria-label="Latest news and stories">
-        <article class="news-article news-featured">
-          <div class="article-icon article-blue" aria-hidden="true">▤</div>
-          <div class="article-copy">
-            <p class="card-kicker">PPC CENTRAL NEWS</p>
-            <h2><a href="#community">A fresh home for the PPC community</a></h2>
-            <p>Welcome to PPC Central: a place to share Pocket PC memories, helpful resources, and the devices and software that made these handhelds special.</p>
-            <a class="text-link" href="#community">Read the story ›</a>
-          </div>
-        </article>
-
-        <article class="news-article">
-          <div class="article-icon article-green" aria-hidden="true">▣</div>
-          <div class="article-copy">
-            <p class="card-kicker">COMMUNITY</p>
-            <h2><a href="#community">What was your first Pocket PC?</a></h2>
-            <p>From early monochrome handhelds to color touchscreen devices, every owner has a favorite. Share the model that started it all for you.</p>
-            <a class="text-link" href="#community">Join the conversation ›</a>
-          </div>
-        </article>
-
-        <article class="news-article">
-          <div class="article-icon article-orange" aria-hidden="true">⌕</div>
-          <div class="article-copy">
-            <p class="card-kicker">GUIDES &amp; TIPS</p>
-            <h2><a href="index.html#guides">Getting a classic handheld ready to use</a></h2>
-            <p>Start with the basics: check the battery, find a compatible sync cable, and confirm which software works with your version of Windows Mobile.</p>
-            <a class="text-link" href="index.html#guides">Browse guides ›</a>
-          </div>
-        </article>
-
-        <article class="news-article" id="community">
-          <div class="article-icon article-blue" aria-hidden="true">▧</div>
-          <div class="article-copy">
-            <p class="card-kicker">FROM THE COMMUNITY</p>
-            <h2><a href="index.html#downloads">Keeping useful Pocket PC software discoverable</a></h2>
-            <p>Finding old utilities and documentation can be part of the fun. Help others by sharing reliable sources, compatibility notes, and setup tips.</p>
-            <a class="text-link" href="index.html#downloads">Explore downloads ›</a>
-          </div>
-        </article>
+      <section id="news-feed" class="news-feed" aria-label="Latest news and stories" aria-live="polite">
+        <p class="news-loading">Loading the latest stories…</p>
       </section>
-
       <aside class="news-sidebar" aria-label="News topics">
-        <section class="news-sidebox">
-          <h2>Browse topics</h2>
-          <ul>
-            <li><a href="#community">Community stories</a></li>
-            <li><a href="index.html#guides">Guides &amp; tips</a></li>
-            <li><a href="index.html#downloads">Software &amp; downloads</a></li>
-            <li><a href="index.html#about">PPC Central updates</a></li>
-          </ul>
-        </section>
-        <section class="news-sidebox side-callout">
-          <h2>Have a story?</h2>
-          <p>Share a device memory, a useful tip, or a resource with the PPC Central community.</p>
-          <a class="text-link" href="mailto:hello@ppccentral.com">Contact us ›</a>
-        </section>
+        <section class="news-sidebox"><h2>Browse topics</h2><ul>
+          <li><a href="#community">Community stories</a></li>
+          <li><a href="guides.html">Guides &amp; tips</a></li>
+          <li><a href="index.html#downloads">Software &amp; downloads</a></li>
+          <li><a href="index.html#about">PPC Central updates</a></li>
+        </ul></section>
+        <section class="news-sidebox side-callout"><h2>Have a story?</h2><p>Share a device memory, a useful tip, or a resource with the PPC Central community.</p><a class="text-link" href="mailto:hello@ppccentral.com">Contact us ›</a></section>
       </aside>
     </div>
   </main>
-
   <footer class="site-footer"><div class="footer-inner wrap"><a class="footer-brand" href="index.html">PPC Central</a><span>© 2026 PPC Central</span><nav aria-label="Footer"><a href="index.html#about">About</a><a href="mailto:hello@ppccentral.com">Contact</a><a href="#main">Back to top ↑</a></nav></div></footer>
+  <script src="news.js" defer></script>
 </body>
 </html>
