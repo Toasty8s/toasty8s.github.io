@@ -83,3 +83,4 @@ a:hover { color: #00436f; text-decoration: underline; }
   .wrap { width: min(100% - 24px, var(--page-width)); }.utility-links { display: none; }.main-nav > a { flex: 1; justify-content: center; padding-inline: 5px; font-size: 11px; }.hero { margin-top: 12px; }.hero h1 { font-size: 34px; }.tile-row, .side-column, .latest-grid { grid-template-columns: 1fr; }.small-card { min-height: 0; padding-bottom: 12px; border-bottom: 1px solid #ddd; }.bottom-callout { align-items: flex-start; flex-wrap: wrap; }.bottom-callout > div:nth-child(2) { flex: 1; }.button-light { margin-left: 52px; }.footer-inner { padding: 12px 0; flex-wrap: wrap; }.footer-inner nav { width: 100%; margin-left: 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+<link rel="stylesheet" href="news-icon.css">
