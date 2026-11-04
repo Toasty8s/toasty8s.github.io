@@ -1,0 +1,27 @@
+/* Downloads catalog styling in the PPC Central classic portal theme. */
+.downloads-layout { align-items: start; }
+.download-content { min-width: 0; }
+.download-notice { display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 12px; padding: 15px; margin-bottom: 22px; border: 1px solid #c9d6dd; background: linear-gradient(110deg, #f3f6f7, #e6eef1); }
+.notice-icon { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; color: #fff; background: linear-gradient(#3da0c7, #075789); font: bold 18px Georgia, serif; }
+.download-notice h2, .download-safety h2 { margin: 0 0 6px; color: #333; font-size: 16px; font-weight: 400; }
+.download-notice p, .download-safety li { color: #60666a; font-size: 12px; line-height: 1.6; }
+.download-notice p { margin: 0 0 8px; }
+.download-section-title { margin: 0; padding-bottom: 7px; border-bottom: 1px solid #ccc; color: #333; font-size: 17px; font-weight: 400; }
+.download-categories { display: grid; gap: 0; }
+.download-card { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 13px; padding: 16px 0; border-bottom: 1px solid #dedede; }
+.download-icon { width: 42px; height: 42px; display: grid; place-items: center; color: #fff; border: 1px solid rgba(0,0,0,.1); box-shadow: inset 0 1px rgba(255,255,255,.35); font-size: 21px; }
+.download-blue { background: linear-gradient(135deg, #28a0ce, #075789); }
+.download-green { background: linear-gradient(135deg, #91b64a, #5f8426); }
+.download-orange { background: linear-gradient(135deg, #e99a50, #c45c1b); }
+.download-card .card-kicker { margin: 0 0 3px; font-size: 9px; }
+.download-card h3 { margin: 0 0 5px; font-size: 15px; font-weight: 400; }
+.download-card p:not(.card-kicker) { margin: 0 0 7px; color: #666; font-size: 12px; line-height: 1.5; }
+.availability { color: #777; font-size: 10px; font-style: italic; }
+.download-safety { margin-top: 21px; padding: 14px 15px; border: 1px solid #d5d5d5; background: #f7f7f7; }
+.download-safety ul { margin: 7px 0 10px; padding-left: 19px; }
+.download-safety li { margin: 4px 0; }
+@media (max-width: 480px) {
+  .download-notice { grid-template-columns: 30px minmax(0, 1fr); gap: 9px; padding: 12px; }
+  .download-card { grid-template-columns: 40px minmax(0, 1fr); gap: 10px; }
+  .download-icon { width: 36px; height: 36px; }
+}
