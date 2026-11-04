@@ -1,0 +1,11 @@
+/* Use a newspaper glyph for the feature/news icon instead of a sparkle. */
+.feature-card .feature-icon span {
+  display: none;
+}
+
+.feature-card .feature-icon::after {
+  content: "▤";
+  color: #fff;
+  font-size: 34px;
+  line-height: 1;
+}
