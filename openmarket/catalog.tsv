@@ -1,0 +1,6 @@
+# OpenMarket catalog, UTF-8 TSV
+# Rich row format:
+# id<TAB>name<TAB>version<TAB>publisher<TAB>category<TAB>description<TAB>license<TAB>cab-url
+# Add one row per published app. Do not include tabs/newlines in fields.
+# Example (uncomment and replace with a real uploaded CAB and accurate metadata):
+# sample-app<TAB>Sample App<TAB>1.0<TAB>Publisher name<TAB>Utilities<TAB>Describe the app here.<TAB>MPL-2.0<TAB>https://toasty8s.github.io/openmarket/apps/sample-app.cab
